@@ -1,5 +1,5 @@
 title: cicadas blog
-description: 专注所有技术相关内容，包括算法，架构等
+description: 关注系统架构的算法工程师，关注算法的系统工程师
 show_downloads: true
 
 baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
@@ -17,11 +17,11 @@ theme: # leave it empty
 author: "cicadas"
 image: /thumbnail-jumbo.png
 twitter:
-  username: lorepirri
+  username: cicadas
 #  site:
 facebook:
   #publisher: 1592372034171500
   #profile_id: 1809805629
-  app_id: 1798910940422432 # cayman-blog
+  app_id:  # cayman-blog
   #authors: lorepirri
 #  admins:
