@@ -8,6 +8,9 @@ categories: 文章
 ubuntu下很容易配置shadow socks，直接拷贝以下脚本，把以下脚本中的“YourPassword”改成自己需要的密码，执行脚本即可。
 
 ```
+#!/bin/sh
+# copy this script content to a init.sh file, and run "sudo bash init.sh"
+
 # config bbr
 echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
 echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
